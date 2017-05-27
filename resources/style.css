@@ -18,6 +18,7 @@ h2 {
 h3 {
   font-size: 24px;
   color: white;
+  padding-top: 10px;
 }
 
 p, li {
@@ -40,6 +41,7 @@ header {
   height: 35vh;
   padding-left: 20%;
   background-color: #333;
+  position: relative;
 }
 
 section {
@@ -47,7 +49,11 @@ section {
 }
 
 .hero {
-  padding-top: 10%;
+  /*padding-top: 5%;*/
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #Projects {
