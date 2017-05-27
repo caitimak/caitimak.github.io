@@ -1,20 +1,59 @@
-*{
-  font-family: monspace;
+* {
+  font-family: impact, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
-h1{
+h1 {
   font-size: 72px;
+  color: white;
 }
 
 h2 {
   font-size: 36px;
+  padding-top: 5%;
 }
 
-h3{
+h3 {
   font-size: 24px;
+  color: white;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: verdana;
 }
 
 p{
-  font-size: 16px;
-  line-height: 12px;
+  padding-top: 20px;
+}
+
+ul{
+  list-style-type: none;
+  padding-top: 20px;
+}
+
+header {
+  width: auto;
+  height: 35vh;
+  padding-left: 20%;
+  background-color: #333;
+}
+
+section {
+  padding-left: 20%;
+}
+
+.hero {
+  padding-top: 10%;
+}
+
+#Projects {
+  height: 45vh;
+}
+
+#About {
+  height: 20vh;
 }
