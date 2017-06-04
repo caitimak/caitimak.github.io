@@ -38,6 +38,7 @@ li {
   border-style: solid none;
   display: block;*/
   margin: 10px 0px;
+  /*display: inline-block;*/
 }
 
 button {
@@ -65,6 +66,9 @@ p{
 ul{
   list-style-type: none;
   padding-top: 20px;
+  display: inline-block;
+  margin-right: 30px;
+  vertical-align: top;
 }
 
 header {
